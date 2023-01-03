@@ -16,3 +16,15 @@ body {
     border-bottom: 5px solid;
     border-image: linear-gradient(150deg, rgba(155, 93, 229, 1) 0%, rgba(241, 91, 181, 1) 20%, rgba(254, 228, 64, 1) 40%, rgba(0, 187, 249, 1) 60%, rgba(0, 245, 212, 1) 80%) 10% 30%;
 }
+
+h1 {
+    font-size: 10rem;
+    font-family: "Archivo Black";
+    background: rgb(155, 93, 229);
+    background: linear-gradient(150deg, rgba(155, 93, 229, 1) 0%, rgba(241, 91, 181, 1) 20%, rgba(254, 228, 64, 1) 40%, rgba(0, 187, 249, 1) 60%, rgba(0, 245, 212, 1) 80%);
+    background-size: 20% 20%;
+    background-color: #840b2a;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s linear infinite;
+}
